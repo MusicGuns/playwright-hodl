@@ -1,0 +1,44 @@
+2023/08/02-11:31:03.721 16d4 Reusing MANIFEST C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
+2023/08/02-11:31:03.722 16d4 Recovering log #5797
+2023/08/02-11:31:03.756 16d4 Level-0 table #5799: started
+2023/08/02-11:31:03.790 16d4 Level-0 table #5799: 1926870 bytes OK
+2023/08/02-11:31:03.837 16d4 Delete type=0 #5797
+2023/08/02-11:35:24.870 1a98 Level-0 table #5802: started
+2023/08/02-11:35:24.910 1a98 Level-0 table #5802: 1934472 bytes OK
+2023/08/02-11:35:24.913 1a98 Delete type=0 #5800
+2023/08/02-11:35:54.842 16d4 Level-0 table #5804: started
+2023/08/02-11:35:54.886 16d4 Level-0 table #5804: 1933184 bytes OK
+2023/08/02-11:35:54.888 16d4 Delete type=0 #5801
+2023/08/02-11:35:54.892 16d4 Compacting 4@0 + 1@1 files
+2023/08/02-11:35:54.936 16d4 Generated table #5805@0: 2 keys, 966682 bytes
+2023/08/02-11:35:54.936 16d4 Compacted 4@0 + 1@1 files => 966682 bytes
+2023/08/02-11:35:54.937 16d4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/02-11:35:54.937 16d4 Delete type=2 #5794
+2023/08/02-11:35:54.937 16d4 Delete type=2 #5796
+2023/08/02-11:35:54.937 16d4 Delete type=2 #5799
+2023/08/02-11:35:54.937 16d4 Delete type=2 #5802
+2023/08/02-11:35:54.937 16d4 Delete type=2 #5804
+2023/08/02-11:37:01.099 16d4 Level-0 table #5807: started
+2023/08/02-11:37:01.129 16d4 Level-0 table #5807: 1933531 bytes OK
+2023/08/02-11:37:01.130 16d4 Delete type=0 #5803
+2023/08/02-11:37:05.765 16d4 Level-0 table #5809: started
+2023/08/02-11:37:05.804 16d4 Level-0 table #5809: 1933664 bytes OK
+2023/08/02-11:37:05.806 16d4 Delete type=0 #5806
+2023/08/02-11:37:09.513 16d4 Level-0 table #5811: started
+2023/08/02-11:37:09.543 16d4 Level-0 table #5811: 1933992 bytes OK
+2023/08/02-11:37:09.547 16d4 Delete type=0 #5808
+2023/08/02-11:37:51.808 16d4 Level-0 table #5813: started
+2023/08/02-11:37:51.840 16d4 Level-0 table #5813: 1934537 bytes OK
+2023/08/02-11:37:51.842 16d4 Delete type=0 #5810
+2023/08/02-11:37:51.844 16d4 Compacting 4@0 + 1@1 files
+2023/08/02-11:37:51.891 16d4 Generated table #5814@0: 2 keys, 967358 bytes
+2023/08/02-11:37:51.891 16d4 Compacted 4@0 + 1@1 files => 967358 bytes
+2023/08/02-11:37:51.892 16d4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/02-11:37:51.892 16d4 Delete type=2 #5805
+2023/08/02-11:37:51.892 16d4 Delete type=2 #5807
+2023/08/02-11:37:51.892 16d4 Delete type=2 #5809
+2023/08/02-11:37:51.892 16d4 Delete type=2 #5811
+2023/08/02-11:37:51.892 16d4 Delete type=2 #5813
+2023/08/02-11:38:30.103 16d4 Level-0 table #5816: started
+2023/08/02-11:38:30.153 16d4 Level-0 table #5816: 1934131 bytes OK
+2023/08/02-11:38:30.156 16d4 Delete type=0 #5812
