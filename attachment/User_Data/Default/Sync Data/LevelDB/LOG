@@ -1,6 +1,0 @@
-2023/08/02-11:30:57.030 32a4 Reusing MANIFEST C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\Sync Data\LevelDB/MANIFEST-000001
-2023/08/02-11:30:57.031 32a4 Recovering log #492
-2023/08/02-11:30:57.035 32a4 Reusing old log C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\Sync Data\LevelDB/000492.log 
-2023/08/02-11:38:52.159 17cc Level-0 table #496: started
-2023/08/02-11:38:52.167 17cc Level-0 table #496: 103179 bytes OK
-2023/08/02-11:38:52.168 17cc Delete type=0 #492

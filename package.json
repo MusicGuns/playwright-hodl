@@ -11,6 +11,13 @@
     "@playwright/test": "^1.36.2"
   },
   "dependencies": {
-    "generate-password": "^1.7.0"
+    "16": "0.0.2",
+    "generate-password": "^1.7.0",
+    "html5-qrcode": "^2.3.8",
+    "jsqr": "^1.4.0",
+    "node-2fa": "^2.0.3",
+    "otplib": "^12.0.1",
+    "pngjs": "^7.0.0",
+    "qr-scanner": "^1.4.2"
   }
 }
