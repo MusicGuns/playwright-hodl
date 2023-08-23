@@ -1,0 +1,15 @@
+2023/08/03-16:29:08.548 2f08 Reusing MANIFEST C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_e.mail.ru_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/03-16:29:08.549 2f08 Recovering log #4
+2023/08/03-16:29:08.557 2f08 Reusing old log C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_e.mail.ru_0.indexeddb.leveldb/000004.log 
+2023/08/03-17:46:53.416 630 Level-0 table #8: started
+2023/08/03-17:46:53.427 630 Level-0 table #8: 347559 bytes OK
+2023/08/03-17:46:53.428 630 Delete type=0 #4
+2023/08/03-17:46:53.429 630 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/08/03-17:46:53.430 630 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x01\x13\x00t\x00e\x00s\x00t\x00a\x00r\x00t\x00e\x00m\x00t\x00e\x00s\x00t\x00@\x00b\x00k\x00.\x00r\x00u\x00\x01\x13\x00t\x00e\x00s\x00t\x00a\x00r\x00t\x00e\x00m\x00t\x00e\x00s\x00t\x00@\x00b\x00k\x00.\x00r\x00u' @ 2368 : 1
+2023/08/03-17:46:53.430 630 Compacting 1@1 + 1@2 files
+2023/08/03-17:46:53.436 630 Generated table #9@1: 400 keys, 50674 bytes
+2023/08/03-17:46:53.436 630 Compacted 1@1 + 1@2 files => 50674 bytes
+2023/08/03-17:46:53.436 630 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/03-17:46:53.438 630 Delete type=2 #5
+2023/08/03-17:46:53.438 630 Delete type=2 #8
+2023/08/03-17:46:53.440 630 Manual compaction at level-1 from '\x00\x04\x01\x1f\x01\x13\x00t\x00e\x00s\x00t\x00a\x00r\x00t\x00e\x00m\x00t\x00e\x00s\x00t\x00@\x00b\x00k\x00.\x00r\x00u\x00\x01\x13\x00t\x00e\x00s\x00t\x00a\x00r\x00t\x00e\x00m\x00t\x00e\x00s\x00t\x00@\x00b\x00k\x00.\x00r\x00u' @ 2368 : 1 .. (end); will stop at (end)

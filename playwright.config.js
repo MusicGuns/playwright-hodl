@@ -27,7 +27,7 @@ export default defineConfig({
   use: {
     storageState: './attachment/auth.json',
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://exchange.staging-mainnet.hodlex-dev.com',
+    baseURL: 'https://exchange.staging-testnet.hodlex-dev.com',
     viewport: { height: 1920, width: 1080},
     ignoreHTTPSErrors: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */

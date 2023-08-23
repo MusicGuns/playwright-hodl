@@ -1,10 +1,10 @@
 import { expect } from '@playwright/test';
 
-const smtpUrl = 'https://smtp.accounts.staging-mainnet.hodlex-dev.com';
+const smtpUrl = 'https://smtp.accounts.staging-testnet.hodlex-dev.com';
 
-export async function checkMail(page, text, mail) {
+export async function checkMail(page, text, mail, indexMessage) {
   await page.goto(smtpUrl);
-  await page.locator('tr > td').getByText(mail).first().click();
+  await page.locator('tr > td').getByText(mail).nth(indexMessage).click();
   await expect(page.frameLocator('.body').getByText(text)).toHaveCount(1);
   await page.close();
 };

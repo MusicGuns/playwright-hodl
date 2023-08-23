@@ -7,27 +7,13 @@ import * as authInfo from '../attachment/user_data.json';
 
 export class UserData {
 
-  static oldPassword = authInfo.password;
-  static oldMail = authInfo.mail;
+  static password = authInfo.password;
+  static mail = authInfo.mail;
   static nickname = authInfo.nickname;
   static secret_key = authInfo.secret;
   static backup = authInfo.backup;
+  static apiKey = authInfo.apiKey;
   
-  static getOldMail() {
-    return this.oldMail;
-  };
-
-  static getOldPassword() {
-    return this.oldPassword;
-  };
-
-  static getNickname() {
-    return this.nickname;
-  }
-  
-  static getBackup() {
-    return this.backup
-  }
   static genOtpToken() {
     return twofactor.generateToken(this.secret_key)["token"];
   }
@@ -51,15 +37,21 @@ export class UserData {
   //   let code = jsqr(Uint8ClampedArray.from(png.data), png.width, png.height);
   //   return code.data.match(new RegExp(secret))[0] == "" ? false : true;
   // }
+
+  static saveApiKey(newKey) {
+    this.apiKey = newKey;
+    authInfo["apiKey"] = newKey;
+    this.saveData(authInfo);
+  }
   
   static saveNewMail(newMail) {
-    this.oldMail = newMail;
+    this.mail = newMail;
     authInfo["mail"] = newMail;
     this.saveData(authInfo);
   }
   
   static saveNewPassword(newPassword) {
-    this.oldPassword = newPassword;
+    this.password = newPassword;
     authInfo["password"] = newPassword;
     this.saveData(authInfo);
   }

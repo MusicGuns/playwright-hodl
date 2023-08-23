@@ -1,0 +1,15 @@
+2023/07/04-18:03:08.160 2b58 Reusing MANIFEST C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_calls.mail.ru_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/04-18:03:08.161 2b58 Recovering log #27
+2023/07/04-18:03:08.161 2b58 Reusing old log C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_calls.mail.ru_0.indexeddb.leveldb/000027.log 
+2023/07/04-19:20:37.130 4600 Level-0 table #32: started
+2023/07/04-19:20:37.132 4600 Level-0 table #32: 209 bytes OK
+2023/07/04-19:20:37.134 4600 Delete type=0 #27
+2023/07/04-19:20:37.135 4600 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/07/04-19:20:37.135 4600 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 59 : 1
+2023/07/04-19:20:37.135 4600 Compacting 1@1 + 1@2 files
+2023/07/04-19:20:37.138 4600 Generated table #33@1: 19 keys, 502 bytes
+2023/07/04-19:20:37.138 4600 Compacted 1@1 + 1@2 files => 502 bytes
+2023/07/04-19:20:37.139 4600 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/04-19:20:37.139 4600 Delete type=2 #29
+2023/07/04-19:20:37.139 4600 Delete type=2 #32
+2023/07/04-19:20:37.140 4600 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 59 : 1 .. (end); will stop at (end)

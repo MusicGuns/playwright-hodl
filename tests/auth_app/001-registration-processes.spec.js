@@ -36,19 +36,19 @@ test('change password when user logged off', async () => {
   await expect(page).toHaveURL(/\/accounts\/sign_in*/);
   await page.getByRole('link', { name: 'Forgot your password?' }).click();
 
-  await page.getByLabel('Email').fill(UserData.getOldMail());
+  await page.getByLabel('Email').fill(UserData.mail);
   await page.getByRole('button', { name: 'Send me reset password instructions' }).click();
   await expect(page.getByText('If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.')).toHaveCount(1);
 
   let newPassword = UserData.getNewPassword();
-  const secondPage = await clickLinkOnMail(page, context, 'Change my password', UserData.getOldMail());;
+  const secondPage = await clickLinkOnMail(page, context, 'Change my password', UserData.mail);;
   await expect(secondPage).toHaveURL(/\/accounts\/password\/edit*/)
   for ( const inputNewPassword of await secondPage.getByLabel('New Password').all())
     await inputNewPassword.fill(newPassword);
   await secondPage.getByText('Change my password').click();
   UserData.saveNewPassword(newPassword);
 
-  await checkMail(page, 'Your password has been changed', UserData.getOldMail());
+  await checkMail(page, 'Your password has been changed', UserData.mail, 0);
 
   await login(secondPage);
   await secondPage.close();

@@ -1,0 +1,16 @@
+2023/08/18-16:50:56.702 39c4 Reusing MANIFEST C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\hhdobjgopfphlmjbmnpglhfcgppchgje/MANIFEST-000001
+2023/08/18-16:50:56.703 39c4 Recovering log #2953
+2023/08/18-16:50:56.718 39c4 Reusing old log C:\Users\Artem\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\hhdobjgopfphlmjbmnpglhfcgppchgje/002953.log 
+2023/08/18-16:57:35.965 39c4 Level-0 table #2957: started
+2023/08/18-16:57:35.979 39c4 Level-0 table #2957: 605042 bytes OK
+2023/08/18-16:57:35.980 39c4 Delete type=0 #2953
+2023/08/18-17:21:36.644 39c4 Compacting 2@0 + 1@1 files
+2023/08/18-17:21:36.656 39c4 Generated table #2958@0: 3 keys, 10498 bytes
+2023/08/18-17:21:36.656 39c4 Compacted 2@0 + 1@1 files => 10498 bytes
+2023/08/18-17:21:36.656 39c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/18-17:21:36.657 39c4 Delete type=2 #2952
+2023/08/18-17:21:36.657 39c4 Delete type=2 #2954
+2023/08/18-17:21:36.657 39c4 Delete type=2 #2957
+2023/08/18-17:26:36.319 1bc8 Level-0 table #2960: started
+2023/08/18-17:26:36.329 1bc8 Level-0 table #2960: 623041 bytes OK
+2023/08/18-17:26:36.331 1bc8 Delete type=0 #2956
