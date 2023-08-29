@@ -3,7 +3,6 @@ import { UserData } from '../../helpers/user_data.js';
 const { login, logout, login_with_failure } = require('../../helpers/login_logout.js');
 const {checkMail, clickLinkOnMail} = require('../../helpers/mail_process.js');
 import * as proxy from '../../attachment/proxy.json'
-import * as authAdmin from '../../attachment/authAdmin.json'
 import { sleep, upFirstLetter } from '../../helpers/default_helpers.js';
 import { AdminData } from '../../helpers/admin_data.js';
 
@@ -82,7 +81,7 @@ test.describe('edit main information', () => {
 
   test('check log in with old and new mails', async () => {
     await logout(page)
-    await login_with_failure(page, oldMail, UserData.password)
+    await login_with_failure(page, oldMail, UserData.password, 'Unconfirmed account or invalid email, 2fa or password.')
     await login(page)
   })
 })
@@ -109,7 +108,7 @@ test.describe('change password', () => {
 
   test('check log in with old and new passwords', async () => {
     await page.getByRole('link', { name: 'Log in' }).click();
-    await login_with_failure(page, UserData.mail, oldPassword)
+    await login_with_failure(page, UserData.mail, oldPassword, 'Unconfirmed account or invalid email, 2fa or password.')
     await login(page)
   })
 })
@@ -318,5 +317,17 @@ test.describe('P2P profiles', () => {
       await removeButton.first().click()
     }
   })
+})
 
+test('cancel account', async () => {
+  await page.locator('a[href="/edit_account"]').click();
+
+  await page.waitForLoadState('load')
+  await page.getByText('cancel your account').click();
+  await page.locator('cancelaccount input[type="password"]').first().fill(UserData.password);
+  await page.locator('cancelaccount input[type="password"]').first().press('Enter');
+  await page.locator('cancelaccount > div.buttonContainer').getByText('Confirm').first().click();
+
+  expect(await page).toHaveURL(/\/accounts\/sign_in/)
+  await login_with_failure(page, UserData.mail, UserData.password, 'You have reached the limit for login attempts, please follow the account unlock flow sent to your e-mail.')
 })

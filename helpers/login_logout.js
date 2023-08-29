@@ -1,6 +1,6 @@
-import { expect, test } from '@playwright/test';
-import { UserData } from './user_data.js';
+import { expect} from '@playwright/test';
 import { AdminData } from './admin_data.js';
+import { UserData } from './user_data.js';
 
 
 export async function login(page, backup = false, admin = false) {
@@ -21,14 +21,14 @@ export async function login(page, backup = false, admin = false) {
   await page.context().storageState(admin ? { path: "attachment/authAdmin.json" } : { path: "attachment/auth.json" });
 }
 
-export async function login_with_failure(page,  mail, password) {
+export async function login_with_failure(page, mail, password, text) {
   await expect(page).toHaveURL(/\/accounts\/sign_in*/);
   
   await page.getByLabel('Email').fill(mail);
   await page.getByLabel('Password').fill(password);
 
   await page.getByRole('button', { name: 'Log in' }).click();
-  expect(await page.getByText('Unconfirmed account or invalid email, 2fa or password.'))
+  await expect(await page.getByText(text)).toHaveCount(1)
 }
 
 export async function logout(page) {

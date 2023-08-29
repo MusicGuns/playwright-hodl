@@ -13,6 +13,7 @@ export class UserData {
   static secret_key = authInfo.secret;
   static backup = authInfo.backup;
   static apiKey = authInfo.apiKey;
+  static refCode = authInfo.refCode;
   
   static genOtpToken() {
     return twofactor.generateToken(this.secret_key)["token"];
@@ -29,6 +30,13 @@ export class UserData {
     }) + 'a1';
   };
 
+  static getNewNickname() {
+    return generator.generate({
+      numbers: true,
+      uppercase: false
+    }) + 'a1';
+  }
+
   // async checkQrCode(secret, image_path) {
   //   let image = (await Jimp.read(image_path));
   //   let imageBase64 = await image.getBase64Async('image/png');
@@ -37,6 +45,11 @@ export class UserData {
   //   let code = jsqr(Uint8ClampedArray.from(png.data), png.width, png.height);
   //   return code.data.match(new RegExp(secret))[0] == "" ? false : true;
   // }
+  static saveNewNickname(newNickname) {
+    this.nickname = newNickname;
+    authInfo["nickname"] = newNickname;
+    this.saveData(authInfo);
+  }
 
   static saveApiKey(newKey) {
     this.apiKey = newKey;

@@ -31,16 +31,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "asset",
-      "value": "btc",
-      "domain": ".exchange.staging-testnet.hodlex-dev.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "locale",
       "value": "en",
       "domain": ".accounts.staging-testnet.hodlex-dev.com",
@@ -52,27 +42,27 @@
     },
     {
       "name": "_ga_YFJPWYX0NX",
-      "value": "GS1.1.1692716081.1.0.1692716081.0.0.0",
+      "value": "GS1.1.1693306552.1.0.1693306552.0.0.0",
       "domain": ".hodlex-dev.com",
       "path": "/",
-      "expires": 1727276081.425755,
+      "expires": 1727866552.187019,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.1691032016.1692716081",
+      "value": "GA1.1.2035653146.1693306552",
       "domain": ".hodlex-dev.com",
       "path": "/",
-      "expires": 1727276081.426631,
+      "expires": 1727866552.187691,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_hodl_auth",
-      "value": "deckiQy%2FfKBlveM2erMzzDI6NP5clzgGZ2bf2Xh013oMBKwXgg6%2BJ4IhfzIC%2FAZcc5ngRfl2uKKc%2F9lr6g6R3W66463sWouG31oiYWqH9T7yWsmBElvthsnnwRqNDlB5qulejJ0TGmIhMk8fVR5lqtBScwRKuXbPEhCT6ZrhB86J239q6CGlejAAIBLMXulIY%2FaNnH0%2FKiFcHHfD5j2vf0L8ynmjTse7Kh3Uq7El33hzriVbT7h3%2BUxU3g4WgIkHdWmaXKol5r988P%2B2yK9ujgqw0vlpYGwt%2F8uRRI6B35br94bXBufILYGFzn%2B%2F46V%2FnOJdGHa4ONzEzr%2Bx7hSSHwswZOxLEce5xcfA6qnshrUcA8c9xSkqoXtSLbAixksrrHBh0RxesnJzwskcP0hd6U5CVYIMgeYEI4nsxL435CacUCqIrnWbH3Mdz91xVdNo7rK7mY%2BWF2OEYSvPOH6OoLMCHOdeCpDofLc6rVzH%2FB2btCyHcsstrVi0Ub9tQust7yfgcC3zv2MA5qJLoHuU97hmNAQblzWwB2Sc%2BfBaLj1s1IN1CDR2guJvax%2FPPqlKnrao1zw1DENiG7j%2BO0J4p72%2BND%2BAzYZXLLgPuV%2BG5YyzUcLh1yU%3D--62DqDybM9NnudGeF--q3H2Ro1k%2BvOOqOg6wW09%2Bg%3D%3D",
+      "value": "XN7B5K0JvMy7cJBdeTVcwxZiUKKbRRE068F98O2JBg2%2BNFesOUYxQN77an0QiMCbIHJd%2Bwnw1PhWUVZyHRCW1%2FrZjhI6Xuu7aBXbInM86pXRRp3PWZqZSTQcDM%2BMHU4oQG%2Bx82p3d9GhAf%2Bl2cJ%2BC2gCYxPl34HdPuLwc5IfC%2Fm1lH6UUaJrlI0H0LLF9mDf9jMb%2FRRynW965c2KKfenJ7ayuKyISnI0irOQ0me5BdWr6vusoq3TxXqQ5ajvG2JCEqN0I45grUXw7wmpM6criZw8cIhYYa%2FkzpkSjP5JTxswnvHwTzPkXOcZRloX13L7rNeqUGE6EHxWgLPphPuFzpUqfpZ6%2FOBcr6t2laDQ5PVcsZ4K%2Bex6fHAE7T8D532HGOrz21Idi8UwRzfSwLZKkT8rzypxffqMBnfrAdUWIlG4y4rL%2BTuh9p2NSGDLA84K50NZgxgO81V4Ir%2BuJHcHxoiWw5PV1yxIJkilpxT8hqXUplj8a%2BvIOd7MEhC3ckGqYM4qr%2BOiO%2B4fa6xr1aiVPVNx8o%2FMG0ya3IRILp3sZwMZN7r6L2Wq7VQLx6QVf%2F1FCSVIOlLuV3GxGEvxPYSQPn4hQIxJhlcKzQPa%2Fw3RlRSL2h0eCIs%3D--%2FFeLEutxlLSun8gI--dM0ToNsweo%2FhG%2FO2fhn8vg%3D%3D",
       "domain": ".staging-testnet.hodlex-dev.com",
       "path": "/",
       "expires": -1,
@@ -82,7 +72,7 @@
     },
     {
       "name": "_hodl_auth",
-      "value": "Ma0t9eO7bPvfzJZAur94XBrOm%2Bk1aFYc9D%2BxwatlEFBg%2B24pcJ6pKCyEWWvwZCVzPQUxs8oFXkRZy%2Fi8R3GEMsvfua%2BuoQ9X0M8XsT5zB1LiW3jTudndcK10WY4Pqh3YXAV66UP40S1vH%2FxwCuBCU%2Fww7csZfHBJM9nVrk4QUpEw5hHXgor508A%2FXoE9m3vlaPDSkBNipTMiCijOJHkbzUJj%2BmQnhPH8cdG4RCo4ykGFJk98Ni8Y9ur25tyRN6hnIvwIPX%2F7LBBYNbJyZXtIuPzt2d69u%2BZ%2B580VCd9XkT29wXuJmnM6SIAqHg4BYzxiuQB2QIUOdfYd40gQuSMCWtdCxaIVeO7Q9NJOI4gzh5QkCYFHyz94UqeYM%2FeWXON8bK3FBDlE%2FwSvYFlfFA3DHccpDGIWSMjcRtzFLcRlWDOh2m1mI2SRJUflm35mmKpmAgI%2FZyQXyV%2Ffl6k43evH%2Fzi0tp2isItHIW6j7P1Qx2%2FhhCSPZgCI4Idtl8XcHS0w7zPj6otf7SPVPwOOazY2BXd1OVfKC%2BUxcEnfq1kiDORSe5GkusYcMEPJD3ODVDb%2BUXP2TknekC4UIwUT0anze655HpCO5D%2FgS41GyicKb%2FC5hADpBTk%3D--eHoMlrJUTJlXXbHO--r0cg3lIndcna5i4CJn%2Fo0Q%3D%3D",
+      "value": "FH9rrSSToMdqi0ZtNn%2Fsl32QbW15KjCWV1Zrjj%2Boem7Dj54lcTlwUtEaggCGQRNK7r9qKMCWfCoPKZVEY9wTDAnMoCLHXObSt4Ob4977Ky9v8P7zKUY3eY8PVubx7pIqzEjkkTTy4ephc624qia9J8yaAva3LRcEDs3DQBytJ8fk%2BgHDqKM%2FR6a4lQWgeEIS5B%2Futp%2F8NNhPfksZWdtMfYfIW6iJDJlT2v361ZKNSXBuh80WlU%2BgE%2BrvcZZFXZlD8XwLVePNQACom8YYFHUDAtqB%2Fah11B4uIxNmkFI5jBgNfp%2BjddiSQaoS2FzEq44KNm%2BaBGc6DUpUfK2Z2JdXHxutaYlciG%2BWGSTJ47%2B%2BZfcivPotE2KzyQjEjyNk%2B3ClGOFJJTmO207XSVP8JnrdYOClpvMtkXAU%2BzFcPEJO8BKd%2B79kiCgngxjWJis%2BzZcw9ZqTiXnNeUbX8kA04J7GHEPc59wKxqE3HRifCyjYSNlKt5c89nTlz5uokQU%2F89mo37waYPtPWRdtEfwwoJEW57FE8dIMWTz%2F%2BMejOu8v99udFFICe%2FbVNVON4DDcjEQAYY35Z55hJXYsD7edpjIBT6iKQwHCM4htW1aTQToY%2FYfwww1W24E%3D--ID8GbxflOOMSeRtC--g6o5RM%2FOgpCmp9VhLQL%2BFQ%3D%3D",
       "domain": ".exchange.staging-testnet.hodlex-dev.com",
       "path": "/",
       "expires": -1,
